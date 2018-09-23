@@ -26,3 +26,7 @@ if (message.content === 'ي الله') {
 });
 
 client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN2);
+client.login(process.env.BOT_TOKEN3);
+client.login(process.env.BOT_TOKEN4);
+client.login(process.env.BOT_TOKEN5);
