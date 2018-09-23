@@ -16,7 +16,7 @@ if (message.content === 'ي الله') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Server Five __ForEver__ 5Kk SooN !! . TheOne : - Al,JeneŘaL.  ** ${x}`)
+        message.channel.send(`**تـم التهكـير __طنـآخهه__ء ** ${x}`)
           .then(m => {
             count++;
           })
