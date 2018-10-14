@@ -1,3 +1,5 @@
+const Discord = require("discord.js")
+
 client.on('message', message => {
     if (message.content === 'بوم') {
           let count = 1;
