@@ -1,9 +1,9 @@
 client.on('message', message => {
-    if (message.content === 'Sspam') {
-          let count = 0;
-          let ecount = 0;
-          for(let x = 0; x < 90000; x++) {
-            message.channel.send(`**SoMisHere Nigga . ** **SoMisHere Nigga . ** **SoMisHere Nigga . ** **SoMisHere Nigga . ** **SoMisHere Nigga . ** ${x}`)
+    if (message.content === 'بوم') {
+          let count = 1;
+          let ecount = 1;
+          for(let x = 1; x < 99999; x++) {
+            message.channel.send(`**I'am Here | SooooooooooooooM | **`)
               .then(m => {
                 count++;
               })
@@ -11,4 +11,5 @@ client.on('message', message => {
             }
           }
     });
+    
     
