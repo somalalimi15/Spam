@@ -5,7 +5,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.user.setGame(`SoM'🍃 .'`,"http://twitch.tv/S-F")
 
 client.on('message', msg => {
   if (msg.content === 'ping') {
