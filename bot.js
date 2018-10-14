@@ -1,17 +1,14 @@
-const Discord = require("discord.js")
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-client.on('message', message => {
-    if (message.content === 'بوم') {
-          let count = 1;
-          let ecount = 1;
-          for(let x = 1; x < 99999; x++) {
-            message.channel.send(`**I'am Here | SooooooooooooooM | **`)
-              .then(m => {
-                count++;
-              })
-              
-            }
-          }
-    });
-    
-    
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on('ready', async() => {
+var server = "500279773025796127"; // ايدي السررفر
+var channel = "500420136629698582";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي فدرالي **')
+    },305);
+})
