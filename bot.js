@@ -22,7 +22,7 @@ var channel = "502153499212251136";//ايدي الروم
 })
 
 client.on('ready', () => {
-    client.channels.find(c => c.id === '500441107235209248').join();
+    client.channels.find(c => c.id === '502132646080544788').join();
 });
 
 console.log("Welcome Again !");
